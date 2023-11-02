@@ -4,7 +4,6 @@ import { loadImage } from '@napi-rs/canvas';
 const cachedTwemojiImages = new Map();
 
 export async function loadTwemojiImageByUrl(url: string): Promise<Image> {
-	console.log(url);
 	if (cachedTwemojiImages.has(url)) {
 		return cachedTwemojiImages.get(url);
 	}
