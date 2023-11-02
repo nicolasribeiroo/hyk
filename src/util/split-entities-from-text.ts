@@ -1,6 +1,6 @@
 import type { EmojiEntity } from 'twemoji-parser';
 import { parse } from 'twemoji-parser';
-import { DISCORD_CDN_URL, DISCORD_EMOJI_REGEX } from './contants';
+import { DISCORD_CDN_URL, DISCORD_EMOJI_REGEX } from './constants';
 
 type ParsedEmoji = EmojiEntity | string;
 
